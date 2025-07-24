@@ -3,11 +3,11 @@
 
 ### ป้อนข้อมูลนักศึกษา
 
-รหัส นศ.:
+รหัส นศ.: 
 
 ชื่อ-สกุล :
 
-GitHub Page URL :
+GitHub Page URL : https://cpe207-2568.github.io/lab07v2-1dayofus/
 
 ---
 
