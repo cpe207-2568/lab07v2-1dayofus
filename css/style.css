@@ -1,17 +1,21 @@
-/* override placeholder color of bootstrap */
-
-.form-control::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  opacity: 1; /* Firefox */
-  color: rgb(167, 164, 164);
+input::placeholder {
+  color: rgba(0, 0, 0, 0.15) !important;
+  opacity: 1 !important;
+  font-weight: 300 !important;
 }
 
-.form-control:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: red;
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.15) !important;
 }
 
-.form-control::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: red;
+input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.15) !important;
+}
+
+input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.15) !important;
+}
+
+input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.15) !important;
 }

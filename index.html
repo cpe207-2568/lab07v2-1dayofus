@@ -7,16 +7,9 @@
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./scripts/script.js" defer></script>
-    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body class="p-3">
     <div class="mx-auto vstack gap-2" style="width: 400px">
@@ -24,39 +17,33 @@
       <div class="d-flex gap-2">
         <div>
           <label class="form-label">First name</label>
-          <input class="form-control" id="first-name-input" />
+          <input class="form-control" id="first-name-input" placeholder="วสุ" />
           <div class="invalid-feedback">Invalid first name</div>
         </div>
         <div>
           <label class="form-label">Last name</label>
-          <input class="form-control" id="last-name-input" />
+          <input class="form-control" id="last-name-input" placeholder="เอี่ยมศรี" />
           <div class="invalid-feedback">Invalid last name</div>
         </div>
       </div>
       <div>
         <label class="form-label">Email</label>
-        <input class="form-control" id="email-input" />
+        <input class="form-control" id="email-input" placeholder="wasu_i@cmu.ac.th" />
         <div class="invalid-feedback">Invalid email format</div>
       </div>
       <div>
         <label class="form-label">Password</label>
-        <input class="form-control" type="password" id="password-input" />
+        <input class="form-control" type="password" id="password-input" placeholder="" />
         <div class="invalid-feedback">Require at least 6 characters</div>
       </div>
       <div>
         <label class="form-label">Confirm Password</label>
-        <input
-          class="form-control"
-          type="password"
-          id="password-confirm-input"
-        />
-        <div class="invalid-feedback">
-          Password mismatch or invalid password
-        </div>
+        <input class="form-control" type="password" id="password-confirm-input" placeholder="" />
+        <div class="invalid-feedback">Password mismatch or invalid password</div>
       </div>
-
       <div class="d-flex justify-content-end gap-2">
         <button id="submit-btn" class="btn btn-success my-2">Register</button>
+        <button id="reset-btn" class="btn btn-danger my-2">Reset</button>
       </div>
     </div>
   </body>
